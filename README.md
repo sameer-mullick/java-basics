@@ -4,6 +4,7 @@ This repository contains simple Java programs for learning and practicing core J
 
 ## What's Included
 - `BasicFib.java`: A basic Java program that calculates the Fibonacci sequence.
+- `BasicFibwithMethod.java`: An improved version of the Fibonacci program that uses a separate method to generate the sequence.
 - `OutlierDetection.java`: A program that finds the index of the first outlier in an arithmetic sequence.
 - `SimpleCalc.java`: A simple calculator that performs basic arithmetic operations.
 - `MethodsDemo.java`: Demonstrates how to define and use methods in Java.
@@ -25,7 +26,7 @@ This repository contains simple Java programs for learning and practicing core J
     java FileName
     ```
 
-### Example:
+### Example
 ```bash
 javac OutlierDetection.java
 java OutlierDetection
