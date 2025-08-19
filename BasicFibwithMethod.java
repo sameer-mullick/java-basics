@@ -1,15 +1,15 @@
 import java.util.Scanner;
 class BasicFibwithMethod {
     static int[] Fib(int a){
-        int arry[] = new int[a];
-        if (a > 0) arry[0] = 0;
-        if (a > 1) arry[1] = 1;
+        int array[] = new int[a];
+        if (a > 0) array[0] = 0;
+        if (a > 1) array[1] = 1;
         int count = 2;
         while (count < a){
-            arry[count] = arry[count - 2] + arry[count - 1];
+            array[count] = array[count - 2] + array[count - 1];
             count++;
         }
-        return arry;
+        return array;
     }
 
     public static void main(String[] args) {
