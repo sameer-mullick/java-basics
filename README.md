@@ -8,6 +8,7 @@ This repository contains simple Java programs for learning and practicing core J
 - `OutlierDetection.java`: A program that finds the index of the first outlier in an arithmetic sequence.
 - `SimpleCalc.java`: A simple calculator that performs basic arithmetic operations.
 - `MethodsDemo.java`: Demonstrates how to define and use methods in Java.
+- `methods102.java`: A program that demonstrates defining a method (`add`), sorting arrays of integers, and sorting the characters of a string.
 - More beginner-friendly Java examples coming soon.
 
 ## How to Run
