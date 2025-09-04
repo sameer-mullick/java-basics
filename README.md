@@ -1,4 +1,4 @@
-# java-basics
+\# java-basics
 
 This repository contains simple Java programs for learning and practicing core Java concepts.
 
@@ -8,8 +8,11 @@ This repository contains simple Java programs for learning and practicing core J
 - `OutlierDetection.java`: A program that finds the index of the first outlier in an arithmetic sequence.
 - `SimpleCalc.java`: A simple calculator that performs basic arithmetic operations.
 - `MethodsDemo.java`: Demonstrates how to define and use methods in Java.
+- `method101.java`: A program showing basic method usage with simple examples.
 - `methods102.java`: A program that demonstrates defining a method (`add`), sorting arrays of integers, and sorting the characters of a string.
 - `anagramMethod.java`: A program that checks if two input words are anagrams of each other.
+- `Cop.java`: Demonstrates using multiple classes together and access modifiers (`protected`).
+- `Constructor101.java`: Demonstrates how to use constructors to initialize objects and access their properties.
 - More beginner-friendly Java examples coming soon.
 
 ## How to Run
