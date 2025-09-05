@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Demo {
   private double n1;
   private double n2;
@@ -7,27 +8,27 @@ class Demo {
     this.n2 = num2;
   }
 
-  double add() {
-    return n1 + n2;
+  void add() {
+    System.out.println(n1 + " + " + n2 + " = " +( n1 + n2 ));
 
   }
 
-  double subtract() {
-    return n1 - n2;
+  void subtract() {
+    System.out.println(n1 + " - " + n2 + " = " +( n1 - n2 ));
 
   }
 
-  double multiply() {
-    return n1 * n2;
+  void  multiply() {
+    System.out.println(n1 + " * " + n2 + " = " +( n1 * n2 ));
 
   }
 
-  double divide() { 
+  void  divide() { 
     if (n1> n2){
-      return n1/n2;
+      System.out.println(n1 + " / " + n2 + " = " +( n1 / n2 ));;
     }
     else {
-      return n2/n1;
+      System.out.println(n1 + " / " + n2 + " = " +( n2 / n1 ));;
     }
 
   }
@@ -37,12 +38,18 @@ class Demo {
 class Calculator {
 
   public static void main(String args[]) {
-    Demo obj = new Demo(10, 94);
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Give us two numbers");
+    System.out.print("(bigger) Number 1 : ");
+    double a = scan.nextDouble();
+    System.out.print("(smaller) Number 2: ");
+    double b = scan.nextDouble();
+    Demo obj = new Demo(a, b);
 
-    System.out.println(obj.add());
-    System.out.println(obj.subtract());
-    System.out.println(obj.multiply());
-    System.out.println(obj.divide());
+    obj.add();
+    obj.subtract();
+    obj.multiply();
+    obj.divide();
   }
 
 }
