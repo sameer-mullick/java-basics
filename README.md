@@ -9,13 +9,12 @@ This repository contains simple Java programs for learning and practicing core J
 - `anagramMethod.java`: Checks if two input words are anagrams of each other.
 - `method101.java`: Shows basic method usage with simple examples.
 - `methods102.java`: Demonstrates defining a method (`add`), sorting arrays of integers, and sorting the characters of a string.
-- `MethodsDemo.java`: Demonstrates how to define and use methods in Java. *(if still included)*
-- `SimpleCalc.java`: A simple calculator that performs basic arithmetic operations. *(if still included)*
 - `Calculator.java`: Demo calculator program that gets input using classes, methods, and Scanner.
 - `CalculatorConst.java`: Calculator example using constructors, fields, and methods.
 - `Constructor101.java`: Demonstrates using constructors to initialize objects and access their properties.
-- `Cop.java`: Demonstrates using multiple classes and access modifiers (`protected`).
+- `Cop.java`: Demonstrates using multiple classes together and access modifiers (`protected`).
 - `GroceryList.java`: Example program using constructors, methods, and inheritance.
+- `carInheritance.java`: Demonstrates Car and Vehicle classes with inheritance, getters, and a combined details method.
 - More beginner-friendly Java examples coming soon.
 
 ## How to Run
