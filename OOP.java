@@ -74,10 +74,15 @@ class Truck extends Vehicle implements Insurable{
 
 class OOP{
     public static void main (String [] arg){
-        Vehicle[]vehicle = {new Car(), new ElectricScooter(), new Truck()};
+        Vehicle[]vehicle = {new Car("Toyota" , "Rav4", 2022, 4), new ElectricScooter("Apollo", "MC57", 2021, 89), new Truck("Ford" ,  "Challanger" , 2025, 1000)};
         
         for (int i = 0; i< vehicle.length ; i++){
             vehicle[i].printDetails();
+
+            if (vehicle[i] instanceof Insurable ){
+                ((Insurable) vehicle[i]).getInsuranceQuote();
+            }
+            System.out.println();
         }
         
     }
