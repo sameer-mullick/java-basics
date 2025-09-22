@@ -35,7 +35,7 @@ class Car extends Vehicle implements Insurable{
     
     @Override
     public void getInsuranceQuote(){
-        System.out.print("Car insurance quoted calculated");
+        System.out.print(" Car insurance quoted calculated");
     }
 }
 class ElectricScooter extends Vehicle{
@@ -68,7 +68,7 @@ class Truck extends Vehicle implements Insurable{
     
     @Override
     public void getInsuranceQuote(){
-        System.out.print("Truck insurance quoted calculated");
+        System.out.print(" Truck insurance quoted calculated");
     }
 }
 
