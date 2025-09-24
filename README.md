@@ -11,11 +11,13 @@ This repository contains simple Java programs for learning and practicing core J
 - `methods102.java`: Demonstrates defining a method (`add`), sorting arrays of integers, and sorting the characters of a string.
 - `Calculator.java`: Demo calculator program that gets input using classes, methods, and Scanner.
 - `CalculatorConst.java`: Calculator example using constructors, fields, and methods.
-- `Constructor101.java`: Demonstrates using constructors to initialize objects and access their properties.
+- `Constructor101.java`: Demonstrates using classes and constructors to initialize objects and access their properties.
 - `Cop.java`: Demonstrates using multiple classes together and access modifiers (`protected`).
 - `GroceryList.java`: Example program using constructors, methods, and inheritance.
 - `carInheritance.java`: Demonstrates Car and Vehicle classes with inheritance, getters, and a combined details method.
-- More beginner-friendly Java examples coming soon.
+- `abstraction101.java`: Demo of abstract classes and methods using a `Vehicle` base class and subclasses.
+- `OOP.java`: Partial commit file for practicing object-oriented programming concepts.
+- `README.md`: Repository documentation.
 
 ## How to Run
 1. Make sure you have Java installed.
