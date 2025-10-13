@@ -17,8 +17,9 @@ This repository contains simple Java programs for learning and practicing core J
 - `carInheritance.java`: Demonstrates Car and Vehicle classes with inheritance, getters, and a combined details method.
 - `abstraction101.java`: Demo of abstract classes and methods using a `Vehicle` base class and subclasses.
 - `OOP.java`: Partial commit file for practicing object-oriented programming concepts.
-- `dsaArrayList`: doing a demo is using array lists.
-- `easyIteration`: doing a demo is using array lists + iteration.
+- `ListIteratordemo.java`: Demonstrates how to use ListIterators to traverse and modify lists.
+- `dsaArrayListPractice.java`: Simple ArrayList practice program.
+- `easyIteration.java`: Demonstrates iteration by calculating the sum of integer inputs.
 - `README.md`: Repository documentation.
 - and More!!
 
